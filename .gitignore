@@ -1,0 +1,11 @@
+# Cache de Python
+__pycache__/
+*.py[cod]
+
+# Checkpoints de Jupyter / Google Colab
+.ipynb_checkpoints/
+
+# Archivos de sistema locales o logs
+*.log
+.DS_Store
+Thumbs.db
