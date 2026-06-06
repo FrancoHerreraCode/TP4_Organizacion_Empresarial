@@ -1,5 +1,6 @@
 import pandas as pd
 import matplotlib.pyplot as plt
+import datetime
 
 # =====================================================================
 # SCRIPT DE PRODUCCIÓN - ESCENARIO B (ANÁLISIS DE VENTAS 2024)
