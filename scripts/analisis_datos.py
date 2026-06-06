@@ -23,6 +23,7 @@ unidades_producto_mas_vendido = grupo_producto.max()
 df['OrderDate'] = pd.to_datetime(df['OrderDate'])
 nuevo_df = df.set_index('OrderDate')
 ventas_por_mes = nuevo_df.resample('ME').sum()['LineItemTotal']
+ventas_por_mes.index = ventas_por_mes.index.strftime('%Y-%m')
 
 # 5. Salida por consola de control
 print("=== INDICADORES PROCESADOS CON ÉXITO ===")
