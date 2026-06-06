@@ -23,10 +23,9 @@ El proyecto consiste en el procesamiento y análisis de un conjunto de datos com
 ---
 
 ## 📁 Estructura del Repositorio
-```text
 repo-proyecto/
 ├── datos/                  # Archivos de datos de entrada (datasets)
 ├── scripts/                # Programas ejecutables en Python
 ├── resultados/             # Gráficos y tablas exportadas
 ├── .gitignore              # Exclusión de archivos innecesarios
-└── README.md               # Documentación general del proyecto
+└── README.md               # Documentación general del proyecto (este archivo)
